@@ -1,0 +1,35 @@
+#masthead {
+	position: fixed;
+	width: 100%;
+	margin: 0 0 30px;
+	overflow: auto;
+	color: #ff005d;
+	background: #480763;
+	border-bottom: 2px solid #ccc;
+}
+
+.container {
+	width: 100%;
+	max-width: 96px;
+	margin: 0 auto;
+	clear: both;
+}
+
+nav {
+	float: right; 
+	margin-top: 25px;
+}
+
+nav a {
+	display: inline-block;
+	padding-left: 15px;
+	margin-left: 15px;
+	line-height: 18px;
+	color: #999;
+	text-decoration: none;
+	border-left: 1px solid gray;
+}
+
+nav:first-child {
+	border-top: 0 none;
+}
