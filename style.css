@@ -3,8 +3,8 @@
 	width: 100%;
 	margin: 0 0 30px;
 	overflow: auto;
-	color: #ff005d;
-	background: #480763;
+	color: #ffffff;
+	background: #0096bc;
 	border-bottom: 2px solid #ccc;
 }
 
@@ -25,9 +25,9 @@ nav a {
 	padding-left: 15px;
 	margin-left: 15px;
 	line-height: 18px;
-	color: #999;
+	color: #000000;
 	text-decoration: none;
-	border-left: 1px solid gray;
+	border-left: 1px solid black;
 }
 
 nav: first-child {
@@ -78,3 +78,12 @@ h3, .sidebar h2 {
 	margin-top: 8px;
 	margin-right: 5px;
 }
+
+footer {
+	padding: 30px 0 ;
+	clear: both;
+	font-size: 12px; 
+	color: yellow;
+	text-align: center;
+	background: black;
+	border-top: 8px solid red;
