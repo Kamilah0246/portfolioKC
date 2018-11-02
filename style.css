@@ -1,3 +1,41 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;   
+	font-size: 18px; 
+	line-height: 34px;
+	color: #843156;
+}
+
+h1
+h2
+h3
+p {
+	margin-bottom: 20px;
+}
+
+p: last-child {
+	margin-bottom: 0;
+}
+
+h1
+h2
+h3 {
+	font-family: Georgia, 'Times New Roman', times, serif;
+	font-weight: 700;
+	color: pink;
+}
+
+h1 {
+	padding-bottom: 20px;
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid white;
+}
+
+h2
+h3 {
+	font-size: 22px;
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -19,6 +57,11 @@
 	color: #ffffff;
 	background: #0096bc;
 	border-bottom: 2px solid #ccc;
+}
+
+.container a {
+	text-decoration: none;
+	color: #000000;
 }
 
 nav {
@@ -62,22 +105,22 @@ nav: first-child {
 	max-width: 270px;
 	padding: 30px;
 	margin-bottom: 20px;
-	background: yellow;
-	border: 1px solid yellow;
+	background: #70caea;
+	border: 1px solid #70caea;
 }
 
 h3, .sidebar h2 {
 	padding-bottom: 20px;
 	margin-bottom: 15px;
 	line-height: 22px;
-	border-bottom: 2px solid yellow;
+	border-bottom: 2px solid #70caea;
 }
 
 .social {
-	width: 62px;
-	height: 62px;
-	margin-top: 8px;
-	margin-right: 5px;
+	width: 70px;
+	height: 70px;
+	margin-top: 5px;
+	margin-right: 8px;
 }
 
 /* portfolio page */
@@ -126,7 +169,7 @@ footer {
 	padding: 30px 0 ;
 	clear: both;
 	font-size: 12px; 
-	color: yellow;
+	color: white;
 	text-align: center;
 	background: black;
-	border-top: 8px solid red;
+	border-top: 8px solid #0096bc;
