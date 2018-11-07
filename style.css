@@ -151,9 +151,9 @@ h3, .sidebar h2 {
 	margin-bottom: 0;
 	font-weight: 300px;
 	line-height: 30px;
-	color: purple;
+	color: black;
 	text-align: center;
-	background: aqua;
+	background: #9556af;
 
 }
 
@@ -162,6 +162,45 @@ h3, .sidebar h2 {
 	width: 200px;
 	height: auto;
 	margin-right: 25px;
+}
+
+/* contact page */
+#contact-form  ul {
+	margin-bottom: 20px;
+}
+
+#contact-form li {
+	margin-bottom: 10px;
+}
+
+label
+input [type=text]
+input [type=text]
+textarea {
+	display: black;
+	width: 100%;
+}
+
+input [type=text]
+input [type=text]
+textarea {
+	height: 35px;
+	padding: 0 10px;
+	font-size: 14px;
+	border: 1px solid black;
+}
+
+textarea {
+	height: 200px;
+}
+
+input [type=submit] {
+	padding: 10px 30px;
+	font-size: 18px;
+	color: green;
+	cursor: pointer;
+	background: brown;
+	border: 0 none;
 }
 
 /* footer */
